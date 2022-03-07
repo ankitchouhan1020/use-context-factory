@@ -1,12 +1,22 @@
 {
   "name": "use-context-factory",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Factory method to generate use-context provider and custom hooks",
-  "main": "index.js",
   "author": "Ankit Chouhan",
   "license": "MIT",
+  "files": [
+    "dist",
+    "src"
+  ],
+  "source": "./src/index.tsx",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
   "scripts": {
     "build": "tsup src/index.tsx --dts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ankitchouhan1020/use-context-factory.git"
   },
   "devDependencies": {
     "@types/react": "^17.0.21",
