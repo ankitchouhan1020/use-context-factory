@@ -1,6 +1,6 @@
 {
   "name": "use-context-factory",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Factory method to generate use-context provider and custom hooks",
   "author": "Ankit Chouhan",
   "license": "MIT",
