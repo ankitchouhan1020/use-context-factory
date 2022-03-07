@@ -23,7 +23,7 @@ export const useCounter = () => useContext(CounterContext);
 
 ```
 
-This package provides a factory to create these custom hooks.
+This package provides a factory to create these custom hooks. [Code Sandbox Example](https://codesandbox.io/s/flamboyant-borg-8kh3bq?file=/src/App.js)
 
 ```js
 const { createStateContext } from 'use-context-factory';
